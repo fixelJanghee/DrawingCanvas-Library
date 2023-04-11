@@ -8,9 +8,8 @@ import android.util.TypedValue
 import android.view.MotionEvent
 import android.view.View
 import androidx.annotation.IntRange
-import java.util.Date.from
 
-class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
+class DrawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
 
     private var mDrawPath:CustomPath?=null
     private var mCanvasBitmap:Bitmap?=null
